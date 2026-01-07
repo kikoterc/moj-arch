@@ -1,1 +1,1 @@
-firefox steam lut obs-studio libre-office kate gnome-software nautilus
+firefox steam obs-studio kate gnome-software nautilus
