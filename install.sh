@@ -50,5 +50,5 @@ chmod +x dotfiles/bin/*
 
 #ignore function of power button
 sudo sed -i 's/^#HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
-sudo systemctl restart systemd-logind
+sudo reboot
 
