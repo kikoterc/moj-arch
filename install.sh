@@ -11,7 +11,7 @@ fi
 
 
 # dotfiles
-cp -r dotfiles/* ~/
+cp -a dotfiles/. ~/
 
 #turns on 32bit library for steam etc.
 sudo sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf
