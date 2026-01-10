@@ -62,6 +62,8 @@ yay -S --noconfirm $(cat packages/aur.txt)
 #./services.sh
 
 
+#bluetooth enable
+sudo systemctl enable bluetooth
 
 # permissions
 chmod +x dotfiles/bin/*
