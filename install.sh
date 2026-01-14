@@ -23,11 +23,11 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm $(cat packages/base.txt)
 
 #audio packages
-sudo pacman -S --noconfirm $(cat packages/audio.txt)
+#sudo pacman -S --noconfirm $(cat packages/audio.txt)
 
-if systemctl --user status &>/dev/null; then
-  systemctl --user enable pipewire pipewire-pulse wireplumber
-fi
+#if systemctl --user status &>/dev/null; then
+ # systemctl --user enable pipewire pipewire-pulse wireplumber
+#fi
 
 # user apps
 sudo pacman -S --noconfirm $(cat packages/apps.txt)
