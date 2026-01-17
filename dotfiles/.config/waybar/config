@@ -16,7 +16,9 @@
 "modules-left": [
 	"hyprland/workspaces",
 	"custom/separator#line",
-	"power-profiles-daemon"
+	"power-profiles-daemon",
+	"custom/separator#line",
+	"custom/gpu#module"
 	],
 
 "modules-center": [
@@ -221,6 +223,15 @@
 	"tooltip-format": "{source_desc} | {source_volume}%",
 	"scroll-step": 5,
 },
+
+
+
+	"custom/gpu#module":{
+	"format":"{}",
+	"exec": "supergfxctl -g"
+
+},
+
 
 
    
